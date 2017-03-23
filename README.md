@@ -1,5 +1,6 @@
 System-project
 
+
 Assignment : simple implementation of a Unix shell
 
 How to use
@@ -9,10 +10,17 @@ Every parts of a command must be separated by a space. The shell supports piped 
 Re-implemented commands
 
 -cat [OPTION] [FILE 1]...[FILE N] : available option : -n. When no file is specified, prints the user's inputs.
+
 -touch [OPTION] [FILE 1]...[FILE N] : available option : -m.
+
 -cp [FILE 1] [FILE 2] : no option available. Works recursively for directories.
+
 -find : no option available.
+
 -cd : standard behavior with '~', '/' and no argument.
+
 -history [OPTION] : available option : n (prints the n last lines of history), !n (execute the nth line of history).
+
 -!! : execute the last command.
+
 -exit
